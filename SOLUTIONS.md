@@ -15,3 +15,11 @@
 
 - Todo list fonctionnelle: Oui
 - Bonus réalisés: [1, 2, 3]
+
+## Temps total passé:
+
+\_\_ heures
+
+## Niveau ressenti :
+
+Entre faux débutant & intermédiaire
