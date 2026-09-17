@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      li {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        gap: 12px;
+        cursor: pointer;
+      }
+      div {
+        cursor: pointer;
+      }
+      .lined {
+        text-decoration: line-through;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <label for="todo">Tâche :</label>
+        <input
+          id="input"
+          name="todo"
+          type="text"
+          placeholder="Qu'as tu à faire ?"
+          onkeyup="javascript: inputFull();"
+        />
+      </section>
+      <button id="add">Ajouter</button>
+      <span id="counter">0</span> <span>tâche(s)</span>
+      <ul id="ul"></ul>
+    </main>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
