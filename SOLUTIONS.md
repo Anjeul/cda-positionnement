@@ -18,7 +18,7 @@
 
 ## Temps total passé:
 
-\_\_ heures
+2-3 jours à peu près ?
 
 ## Niveau ressenti :
 
