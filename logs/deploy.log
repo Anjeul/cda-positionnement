@@ -1,0 +1,82 @@
+++ date
++ echo '=== Lancement du déploiement : Fri Sep 25 11:55:54 CEST 2026 ==='
+=== Lancement du déploiement : Fri Sep 25 11:55:54 CEST 2026 ===
++ PROJECT_DIR=mnt/c/Users/Administrateur/Documents/cda-positionnement
++ WEB_DIR=/var/www/cda-positionnement
+./deploy.sh: line 11: syntax error near unexpected token `}'
+=== Lancement du déploiement : Fri Sep 25 11:57:39 CEST 2026 ===
+./deploy.sh: line 11: cd: mnt/c/Users/Administrateur/Documents/cda-positionnement: No such file or directory
+[X] Dossier introuvable
+=== Lancement du déploiement : Fri Sep 25 12:00:07 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+=== Lancement du déploiement : Fri Sep 25 12:00:31 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+=== Lancement du déploiement : Fri Sep 25 12:09:43 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+From github.com:Anjeul/cda-positionnement
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+--> synchronise les fichiers avec le dossier web Nginx
+cp: target '/var/www/cda-positionnement/': No such file or directory
+=== Lancement du déploiement : Fri Sep 25 12:14:25 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+From github.com:Anjeul/cda-positionnement
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+--> synchronise les fichiers avec le dossier web Nginx
+cp: target '/var/www/cda-positionnement/': No such file or directory
+[X] Erreur lors de la synchronisation avec nginx
+=== Lancement du déploiement : Fri Sep 25 12:18:13 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+From github.com:Anjeul/cda-positionnement
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+--> synchronise les fichiers avec le dossier web Nginx
+[OK] Fichiers synchronisés avec succès
+--> Relance Nginx pour appliquer changement
+Failed to reload Nginx.service: Unit Nginx.service not found.
+[X]Erreur Nginx reload
+=== Lancement du déploiement : Fri Sep 25 12:19:06 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+From github.com:Anjeul/cda-positionnement
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+--> synchronise les fichiers avec le dossier web Nginx
+[OK] Fichiers synchronisés avec succès
+--> Relance Nginx pour appliquer changement
+reload: unrecognized service
+[X]Erreur Nginx reload
+=== Lancement du déploiement : Fri Sep 25 12:19:42 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+From github.com:Anjeul/cda-positionnement
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+--> synchronise les fichiers avec le dossier web Nginx
+[OK] Fichiers synchronisés avec succès
+--> Relance Nginx pour appliquer changement
+[OK] Nginx reload
+Déploiement terminé
+=== Lancement du déploiement : Fri Sep 25 12:20:11 CEST 2026 ===
+--> Téléchargement des dernières modifications depuis Git
+From github.com:Anjeul/cda-positionnement
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+--> synchronise les fichiers avec le dossier web Nginx
+[OK] Fichiers synchronisés avec succès
+--> Relance Nginx pour appliquer changement
+[OK] Nginx reload
+🎉🎉✨✨ Déploiement terminé 🎉🎉✨✨
+=== Lancement du déploiement : Fri Sep 25 12:21:14 CEST 2026 ===
+🍰🍰🌍🪐 Début du déploiement.... 🍰🍰🌍🪐
+--> Téléchargement des dernières modifications depuis Git
